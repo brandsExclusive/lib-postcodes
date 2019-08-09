@@ -1,6 +1,6 @@
 {
   "name": "@luxuryescapes/lib-postcodes",
-  "version": "1.0.5",
+  "version": "1.0.0",
   "description": "Postcode information for Luxury Escapes",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
