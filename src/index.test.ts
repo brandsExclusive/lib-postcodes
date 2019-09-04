@@ -30,3 +30,8 @@ assert(
   "returns default region",
   marketingRegionFromPostcode("fooo") === "sydney"
 )
+
+assert(
+  "returns none if country with no marketing region is given",
+  marketingRegionFromPostcode("fooo", "US") === null
+)
