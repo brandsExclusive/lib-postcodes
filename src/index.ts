@@ -28,6 +28,5 @@ export function marketingRegionFromPostcode(postcode: string, countryCode: strin
   if (countryCode === "AU") {
     return getAU(postcode);
   }
-
-  throw new Error(`country with code ${countryCode} does not exist`);
+  return null
 }
