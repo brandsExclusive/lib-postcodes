@@ -28,5 +28,5 @@ export function marketingRegionFromPostcode(postcode: string, countryCode: strin
   if (countryCode === "AU") {
     return getAU(postcode);
   }
-  return null
+  return null;
 }
